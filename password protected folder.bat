@@ -2,7 +2,7 @@
 title Folder Password v1.5
 color 0a
 set /a tries=3
-set password=password
+set password=password123
 :top
 echo.
 echo ----------------------------------------------
