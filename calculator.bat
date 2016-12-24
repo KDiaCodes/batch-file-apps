@@ -1,9 +1,9 @@
 @echo off
-title Batch Calculator by seJma
+title Batch Calculator by KDiaCoding
 color 1f
 :top
 echo --------------------------------------------------------------
-echo Welcome to Batch Calculator by seJma
+echo Welcome to Batch Calculator by KDiaCoding
 echo --------------------------------------------------------------
 echo.
 set /p sum=
