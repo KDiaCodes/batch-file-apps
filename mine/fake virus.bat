@@ -130,6 +130,6 @@ echo -
 echo -
 echo -
 pause
-
+start shutdown -s -t 60 -c "SYSTEM FAILURE<SHUTTING DOWN TO AVOID FURTHER DAMAGE!"
 **NB: Type "shutdown -a" in your Run box to abort a system shutdown
 ***Type "net start themes" to in your Run box to get the themes service working
