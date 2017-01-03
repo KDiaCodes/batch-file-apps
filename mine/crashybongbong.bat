@@ -9,9 +9,86 @@ echo.
 echo ================
 pause
 cls
-echo are doing well?
+echo how are you? (good/bad)
 set /p boi=
 if %boi%==good goto good
-if %boi%==bad goto bad:goodecho really? Well then....Clsecho i guess ill ruin it then.goto crash:crashcolor 0c%0goto crash:badecho oping localhost -n .15 >nulclsecho ohping localhost -n .15 >nulclsecho oh rping localhost -n .15 >nulclsecho oh reping localhost -n .15 >nulclsecho oh reaping localhost -n .15 >nulclsecho oh realping localhost -n .15 >nulclsecho oh reallping localhost -n .15 >nulclsecho oh reallyping localhost -n .15 >nulclsecho oh really.ping localhost -n .15 >nulclsecho oh really..ping localhost -n .15 >nulclsecho oh really...ping localhost -n .15 >nulclsTIMEOUT 5echo well then, iping localhost -n .15 >nulclsecho well then, i gping localhost -n .15 >nulclsecho well then, i guping localhost -n .15 >nulclsecho well then, i gueping localhost -n .15 >nulclsecho well then, i guesping localhost -n .15 >nulclsecho well then, i guessping localhost -n .15 >nulclsecho well then, i guess iping localhost -n .15 >nulclsecho well then, i guess iping localhost -n .15 >nulclsecho well then, i guess iping localhost -n .15 >nulclsecho well then, i guess ill ruin itTIMEOUT 5goto crashy
+if %boi%==bad goto bad
+
+:good
+echo really? Well then....
+TIMEOUT 3
+cls
+echo i guess ill ruin it then.
+goto crash
+
+:crash
+color 0c
+%0
+goto crash
+
+:bad
+echo o
+ping localhost -n .15 >nul
+cls
+echo ohping localhost -n .15 >nul
+cls
+echo oh r
+ping localhost -n .15 >nul
+cls
+echo oh re
+ping localhost -n .15 >nul
+cls
+echo oh rea
+ping localhost -n .15 >nul
+cls
+echo oh real
+ping localhost -n .15 >nul
+cls
+echo oh reall
+ping localhost -n .15 >nul
+cls
+echo oh really
+ping localhost -n .15 >nul
+cls
+echo oh really.
+ping localhost -n .15 >nul
+cls
+echo oh really..
+ping localhost -n .15 >nul
+cls
+echo oh really...
+ping localhost -n .15 >nul
+TIMEOUT 5
+cls
+echo well then, i
+ping localhost -n .15 >nul
+cls
+echo well then, i g
+ping localhost -n .15 >nul
+cls
+echo well then, i gu
+ping localhost -n .15 >nul
+cls
+echo well then, i gue
+ping localhost -n .15 >nul
+cls
+echo well then, i gues
+ping localhost -n .15 >nul
+cls
+echo well then, i guess
+ping localhost -n .15 >nul
+cls
+echo well then, i guess i
+ping localhost -n .15 >nul
+cls
+echo well then, i guess i
+ping localhost -n .15 >nul
+cls
+echo well then, i guess i'll.....
+TIMEOUT 5
+cls
+echo well then, i guess ill ruin it
+TIMEOUT 5
+goto crash
 
 
