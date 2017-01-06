@@ -35,5 +35,5 @@ echo Password Accepted!
 echo.
 echo Opening Folder...
 echo ----------------------------------------------
-explorer hentai stash
+explorer hentai_stash
 pause
