@@ -1,5 +1,5 @@
 @echo off
-color 2f
+color 0a4
 title Site Selector by KDiaCoding
 :top
 echo ***************************************************************
